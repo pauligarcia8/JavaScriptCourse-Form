@@ -1,0 +1,25 @@
+body{
+    
+    font-family: Calibri;
+    padding: 10px 20px;
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius:0 20px;
+}
+
+.titulo {
+	color: #FFFFFF;
+	background-color: #82C7CC ;
+	border-radius: 0px;
+	text-align: center;
+	letter-spacing: 1.5px;
+}
+
+.contenedor {
+	border-right: #82C7CC solid 1px;
+	border-bottom: #82C7CC solid 1px;
+}

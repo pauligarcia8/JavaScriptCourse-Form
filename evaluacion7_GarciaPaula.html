@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluación 7</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    
+</head>
+<body>
+	<h1>Evaluación Unidad VII</h1>
+    <div class="contenedor">
+        <h1 class="titulo">Censo nacional para la   campaña de vacunacion contra el Covid-19</h1>
+        <h2>Los datos que te pediremos a continuacion   son para entender a que grupo etario y a que zona perteneces.</h2>
+        <form id="formulario" name="formulario" method="POST" action="">
+            <label for="nombre">Nombre</label>
+            <input class="nomApe" type="text" id="nombre"  name="nombre" value=""><br><br>
+            <label for="apellido">Apellido</label>
+            <input class="nomApe" type="text" id="apellido" name="apellido" value=""><br>
+            <h3>¿De que provincia sos?</h3>
+            <select name="provincia" id="provincia">
+                <option value="0">Seleccionar...</option>
+                <option value="1">Buenos Aires</option>
+                <option value="2">Catamarca</option>
+                <option value="3">Chaco</option>
+                <option value="4">Chubut</option>
+                <option value="5">Córdoba</option>
+                <option value="6">Corrientes</option>
+                <option value="7">Entre Rios</option>    
+                <option value="8">Formosa</option>
+                <option value="9">Jujuy</option>
+                <option value="10">La Pampa</option>
+                <option value="11">La Rioja</option>
+                <option value="12">Mendoza</option>
+                <option value="13">Misiones</option>
+                <option value="14">Neuquén</option>
+                <option value="15">Rio Negro</option>
+                <option value="16">Salta</option>
+                <option value="17">San Juan</option>
+                <option value="18">San Luis</option>
+                <option value="19">Santa Cruz</option>    
+                <option value="20">Santa Fe</option>
+                <option value="21">Santiago del Estero</option>
+                <option value="22">Tierra del Fuego</option>
+                <option value="23">Tucumán</option>
+            </select><br><br>
+            <label for="edad">¿Que edad tenes?</label>
+            <input type="text" id="edad" name="edad">
+        <h2>Teniendo en cuenta que recibiste una o mas dosis de la vacuna contra el Covid-19...</h2>       
+        <h3>¿Cual vacuna recibiste?</h3>
+            <input class="vacunas" type="radio" id="tipoSp" name="vacunas" value="Sputnik V">
+            <label for="tipoSp">Sputnik V</label>
+            <input class="vacunas" type="radio" id="tipoc" name="vacunas" value="Covishiel">
+            <label for="tipoC">Covishiel</label>
+            <input class="vacunas" type="radio" id="tipoSi" name="vacunas" value="Sinopharm">
+            <label for="tipoSi">Sinopharm</label>
+            <input class="vacunas" type="radio" id="tipoA" name="vacunas" value="A">
+            <label for="tipoA">AstraZeneca</label>
+        <h3>¿Cuantas dosis se te aplicaron?</h3>
+            <input type="radio" id="cb_1" name="cb_1_2" value="primer-checkbox">
+            <label for="cb_1">1 dosis</label><br>
+            <input type="radio" id="cb-2" name="cb_1_2" value="segundo-checkbox">
+            <label for="cb_2">2 dosis</label>        
+        <h3>Queremos saber como fue tu dia luego de la  aplicacion de la vacuna. ¿Tuviste algun efecto   secundario?</h3>
+            <textarea id="experiencia" name="experiencia" rows="10" cols="50"></textarea><br>
+        <h3>Muchas gracias por la información, te pedimos un mail para poder mandarte novedades respecto a la campaña de vacunación.</h3>
+            <input type="email" id="mail" name="mail"><br><br>
+            <button id="click">Enviar</button><br><br>
+        </form>    
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
